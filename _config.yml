@@ -488,7 +488,7 @@ pangu: false
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: fe9b7ee0648033db8df76416c2f766f8
 
 # Disqus
 disqus:
