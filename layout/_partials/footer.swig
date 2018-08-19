@@ -62,3 +62,7 @@
   #}{{ theme.footer.custom_text }}{#
 #}</div>
 {% endif %}
+<div class="upyunLogo">
+    cdn提供商：<a href="//www.upyun.com/" target="_blank">又拍云</a>
+    <img src="/images/upyunLogo.png" alt="又拍云logo" width="100" style="display: inline-block;vertical-align: middle;">
+</div>
