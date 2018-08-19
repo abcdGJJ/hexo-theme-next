@@ -64,5 +64,5 @@
 {% endif %}
 <div class="upyunLogo">
     cdn提供商：<a href="//www.upyun.com/" target="_blank">又拍云</a>
-    <img src="/images/upyunLogo.png" alt="又拍云logo" width="100" style="display: inline-block;vertical-align: middle;">
+    <img src="//7xjnh2.com1.z0.glb.clouddn.com/upyunLogo.png" alt="又拍云logo" width="100" style="display: inline-block;vertical-align: middle;">
 </div>
