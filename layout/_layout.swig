@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 
 {# NexT version #}
-{% set version = next_env('version') %}
+{#% set version = next_env('version') %#}
+{% set version = '1.0.1' %}
+
 
 {# Language & Config #}
 {% set title = __('title') !== 'title' && __('title') || config.title %}
@@ -80,7 +82,7 @@
         </span>
       </div>
     {% endif %}
-	
+
     {% if theme.baidushare and theme.baidushare.type === "slide" %}
       <div>
         {% include '_partials/share/baidushare.swig' %}
