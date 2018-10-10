@@ -41,7 +41,8 @@
 {% if theme.footer.powered.enable %}
   <div class="powered-by">{#
   #}{{ __('footer.powered', '<a class="theme-link" target="_blank"' + nofollow + ' href="https://hexo.io">Hexo</a>') }}{% if theme.footer.powered.version %} v{{ hexo_env('version') }}{% endif %}{#
-#}</div>
+#}<span class="post-meta-divider">|</span><a href="//www.miitbeian.gov.cn" target="_blank">鲁ICP备15017412号-1</a>
+  </div>
 {% endif %}
 
 {% if theme.footer.powered.enable and theme.footer.theme.enable %}
