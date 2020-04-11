@@ -2,7 +2,7 @@
 
 {# NexT version #}
 {#% set version = next_env('version') %#}
-{% set version = '1.0.2' %}
+{% set version = '1.0.3' %}
 
 
 {# Language & Config #}
