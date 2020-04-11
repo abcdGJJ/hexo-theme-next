@@ -1,11 +1,15 @@
 {% if theme.valine.enable and theme.valine.appid and theme.valine.appkey %}
   <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-  {% set valine_uri = '//unpkg.com/valine/dist/Valine.min.js' %}
-  {% if theme.vendors.valine %}
-    {% set valine_uri = theme.vendors.valine %}
-  {% endif %}
-  <script src="{{ valine_uri }}"></script>
-  
+  <!--
+    {% set valine_uri = '//unpkg.com/valine/dist/Valine.min.js' %}
+    {% set valine_uri = '{{ url_for(theme.js) }}/src/Valine.min.js?v=1.4.3' %}
+    {% if theme.vendors.valine %}
+      {% set valine_uri = theme.vendors.valine %}
+    {% endif %}
+    <script src="{{ valine_uri }}"></script>
+  -->
+  <script type="text/javascript" src="{{ url_for(theme.js) }}/src/Valine.min.js?v=1.4.3"></script>
+
   <script type="text/javascript">
     var GUEST = ['nick','mail','link'];
     var guest = '{{ theme.valine.guest_info }}';
