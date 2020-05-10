@@ -1,7 +1,9 @@
 {%
   set js_commons = [
     'src/utils.js',
-    'src/motion.js'
+    'src/motion.js',
+    'src/superagent.js',
+    'src/requestLeancloud.js'
   ]
 %}
 
