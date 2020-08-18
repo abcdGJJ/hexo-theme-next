@@ -64,6 +64,5 @@
 #}</div>
 {% endif %}
 <div class="upyunLogo">
-    cdn提供商：<a href="//www.upyun.com/" target="_blank">又拍云</a>
-    <img src="/images/upyunLogo.png" alt="又拍云logo" width="100" style="display: inline-block;vertical-align: middle;">
+    本网站由<a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank" style="    border-bottom:none"><img src="/images/upyunLogo.png" alt="又拍云logo" width="100" style="display: inline-block;vertical-align: middle;"></a>提供CDN加速/云存储服务
 </div>
