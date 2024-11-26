@@ -1,4 +1,4 @@
-<div align="right">Language: :us:
+<div align="right">Language:  :us:
 <a title="Chinese" href="docs/zh-CN/README.md">:cn:</a>
 <a title="Russian" href="docs/ru/README.md">:ru:</a></div>
 
