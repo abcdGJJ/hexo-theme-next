@@ -508,7 +508,7 @@ changyan:
 # You can get your appid and appkey from https://leancloud.cn
 # more info please open https://valine.js.org
 valine:
-  enable: true # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version.
+  enable: false # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version.
   appid: hbO4vumCubsIBPr2RQmapWE5-MdYXbMMI # your leancloud application appid
   appkey: PQMkY3TURliQ4Lc2VBA5mJGx # your leancloud application appkey
   notify: true # mail notifier , https://github.com/xCss/Valine/wiki
@@ -785,7 +785,7 @@ reading_progress:
 
 # Use velocity to animate everything.
 motion:
-  enable: true
+  enable: false
   async: false
   transition:
     # Transition variants:
